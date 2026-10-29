@@ -12,3 +12,11 @@ wheels/
 # Logging output
 game_state.jsonl
 game_events.jsonl
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store

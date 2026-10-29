@@ -25,4 +25,3 @@ PLAYER_SHOT_SPEED = 500
 
 # Represents rate limit vars
 PLAYER_SHOOT_COOLDOWN_SECONDS = 0.3
-

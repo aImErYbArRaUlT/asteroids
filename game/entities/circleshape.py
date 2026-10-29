@@ -26,8 +26,9 @@ class CircleShape(pygame.sprite.Sprite):
 
     def collides_with(self, other: "CircleShape") -> bool:
         collision_threshold = self.radius + other.radius
-        #print(f"Distance: {self.position.distance_to(other.position)} <= {collision_threshold}")
-        return self.position.distance_to(other.position) <= collision_threshold 
+        # print(f"Distance: {self.position.distance_to(other.position)} <= {collision_threshold}")
+        return self.position.distance_to(other.position) <= collision_threshold
+
 
 """
 if __name__ == "__main__":
@@ -35,4 +36,3 @@ if __name__ == "__main__":
     b = CircleShape(15,0,10)
     print(a.collides_with(b))
 """
-
